@@ -19,9 +19,15 @@ The Wheel Base should be set to 'PC mode' for the driver to be selected (CSL Eli
 
 Compile and install the driver
 
+Manually
 ```sh
 make
 sudo make install
+```
+
+Or using **DKMS**
+```sh
+sudo ./install.sh
 ```
 
 Reload the new udev rules, depending on the Linux distribution, without rebooting:
